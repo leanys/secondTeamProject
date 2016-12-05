@@ -14,18 +14,18 @@ private:
 	double assignments[3];
 	double tempAssignments[3];
 	//helper functions for gpa calc to sum points when given an array of values
-	double COP3503::pointSummer(double[], int);
-	double COP3503::examPointSummer(double [20]);
+	double pointSummer(double[], int);
+	double examPointSummer(double [20]);
 
 public:
 	//constructor
 	COP3503();
 	//calculates the gpa based on grade values
-	void COP3503::calcGpa();
+	void calcGpa();
 	//setters for the private variables
-	void COP3503::updateAssignments(int, double);
-	void COP3503::updateGroupProject(double);
-	void COP3503::updateExams(int, double);
+	void updateAssignments(int, double);
+	void updateGroupProject(double);
+	void updateExams(int, double);
 	//prints all of the specific grade values
-	void COP3503::printAll();
+	void printAll();
 };

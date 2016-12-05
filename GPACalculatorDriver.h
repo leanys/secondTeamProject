@@ -58,7 +58,7 @@ int getCreditHours() {
 			cout << "The number of credit hours must be 0 or greater" << endl;
 		}
 		cout << endl;
-	} while (inputCreditHours < 0 || inputCreditHours == NULL);
+	} while (inputCreditHours <= 0);
 
 	return inputCreditHours;
 }

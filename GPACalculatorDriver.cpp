@@ -22,7 +22,7 @@ using namespace std;
 int main() {
 	//used to get input
 	InputValidator iv = getInputValidator();
-	int menuInput = NULL;
+	int menuInput = 0;
 
 	while (menuInput != 7) {
 		//prints menu

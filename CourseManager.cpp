@@ -107,7 +107,7 @@ Course* CourseManager::search(string courseName) {
 		return retCourse;
 	}
 
-	auto findIter = find_if(courses->begin(), courses->end(), areEqualCourses);
+	list<Course>::iterator findIter = find_if(courses->begin(), courses->end(), areEqualCourses);
 
 	if (findIter == courses->end()) {
 		Course* retCourse = new Course();
