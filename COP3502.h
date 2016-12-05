@@ -1,3 +1,5 @@
+#ifndef COP3502_H
+#define COP3502_H
 #include "Course.h"
 
 class COP3502 : public Course {
@@ -22,3 +24,5 @@ public:
 	//constructor
 	COP3502();
 };
+#endif // !COP3502
+

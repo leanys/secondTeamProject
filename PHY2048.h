@@ -1,3 +1,6 @@
+#ifndef PHY2048
+#define PHY2048
+
 #include "Course.h"
 
 class Phy2048 : public Course {
@@ -21,3 +24,5 @@ public:
 	//constructor
 	Phy2048();
 };
+#endif // !PHY2048
+

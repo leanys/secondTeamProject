@@ -1,10 +1,10 @@
+
+#ifndef _MAC2312_H_
+#define _MAC2312_H_
 #pragma once
 #include "Course.h"
 #include <iostream>
 using namespace std;
-#ifndef _MAC2312_H_
-#define _MAC2312_H_
-
 //this bit says that this particular class is a child of Course
 class MAC2312 : public Course {
 private:

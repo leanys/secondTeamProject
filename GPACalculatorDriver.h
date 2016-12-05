@@ -1,4 +1,5 @@
-using namespace std;
+#ifndef GPACALCULATORDRIVER
+#define GPACALCULATORDRIVERusing namespace std;
 
 #pragma region fields
 //These are the fields that the header file uses
@@ -509,8 +510,8 @@ void addCustomCourse() {
 
 	//makes sure that the user doesn't enter any of these values for the custom course
 	string courseName = getCourseName();
-	if (courseName.compare("PHY2048") == 0 || courseName.compare("PHY2049") == 0 || courseName.compare("COT3100") == 0 
-		|| courseName.compare("COP3502") == 0 || courseName.compare("COP3503") == 0 || courseName.compare("CHM2045") == 0 
+	if (courseName.compare("PHY2048") == 0 || courseName.compare("PHY2049") == 0 || courseName.compare("COT3100") == 0
+		|| courseName.compare("COP3502") == 0 || courseName.compare("COP3503") == 0 || courseName.compare("CHM2045") == 0
 		|| courseName.compare("MAC2311") == 0 || courseName.compare("MAC2312") == 0 || courseName.compare("MAC2313") == 0
 		|| courseName.compare("MAS3114") == 0) {
 		cout << "Cannot add a course with that name" << endl << endl;
@@ -916,7 +917,7 @@ void editCourse() {
 		choice = iv.getInt();
 		//tries to find the course at that index
 		course = cm.findAt(choice - 1);
-		
+
 		//if it returns a course with an empty string then, no such course was found
 		if (course->getCourseName().compare("") == 0) {
 			cout << "Invalid input" << endl;
@@ -1026,3 +1027,5 @@ void deleteCourse() {
 }
 
 #pragma endregion
+#endif // !GPACALCULATORDRIVER
+

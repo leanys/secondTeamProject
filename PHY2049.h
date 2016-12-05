@@ -1,3 +1,6 @@
+#ifndef PHY2049
+#define PHY2049
+
 #include "Course.h"
 class Phy2049 : public Course {
 private:
@@ -18,3 +21,4 @@ public:
 	void printAll();
 	Phy2049();
 };
+#endif // !PHY2049

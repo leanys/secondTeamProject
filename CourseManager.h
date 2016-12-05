@@ -1,3 +1,5 @@
+#ifndef COURSEMANAGER
+#define COURSEMANAGER
 #include <iostream>
 #include <stdio.h>
 #include <string>
@@ -37,3 +39,4 @@ public:
 	//returns if there are any courses in courses[]
 	bool empty();
 };
+#endif // !COURSEMANAGER

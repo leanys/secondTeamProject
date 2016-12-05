@@ -1,3 +1,5 @@
+#ifndef MAS3114_H
+#define MAS3114_H
 #pragma once
 #include "Course.h"
 #include <iostream>
@@ -33,3 +35,5 @@ public:
 	void printAll();
 
 };
+#endif // !MAS3114_H
+

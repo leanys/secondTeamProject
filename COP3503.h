@@ -1,3 +1,5 @@
+#ifndef COP3503_H
+#define COP3503_H
 #pragma once
 #include "Course.h"
 #include <iostream>
@@ -15,7 +17,7 @@ private:
 	double tempAssignments[3];
 	//helper functions for gpa calc to sum points when given an array of values
 	double pointSummer(double[], int);
-	double examPointSummer(double [20]);
+	double examPointSummer(double[20]);
 
 public:
 	//constructor
@@ -29,3 +31,5 @@ public:
 	//prints all of the specific grade values
 	void printAll();
 };
+#endif // !COP3503_H
+

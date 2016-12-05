@@ -1,3 +1,6 @@
+#ifndef CHM2045
+#define CHM2045
+
 #include "Course.h"
 
 //specific chem course
@@ -20,3 +23,4 @@ public:
 	//constructor
 	Chm2045();
 };
+#endif // !CHM2045

@@ -1,3 +1,6 @@
+#ifndef MAC2313_H
+#define MAC2313_H
+
 #pragma once
 #include "Course.h"
 #include <iostream>
@@ -13,7 +16,7 @@ private:
 	//There are 3 exams and a final in this class
 	double participation;
 	double webAssign[27];
-	double tempWebAssign [27];
+	double tempWebAssign[27];
 	double quizzes[13];
 	double tempQuizzes[13];
 	//helper functions for calc gpa
@@ -34,3 +37,4 @@ public:
 	//prints all grade values for given class
 	void printAll();
 };
+#endif // !MAC2313_H

@@ -1,3 +1,5 @@
+#ifndef COT3100_H
+#define COT3100_H
 #include "Course.h"
 class Cot3100 : public Course {
 public:
@@ -11,3 +13,4 @@ public:
 	//constructor
 	Cot3100();
 };
+#endif // !COT3100_H

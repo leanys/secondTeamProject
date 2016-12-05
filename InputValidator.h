@@ -1,3 +1,5 @@
+#ifndef INPUTVALIDATOR
+#define INPUTVALIDATOR
 using namespace std;
 
 class InputValidator {
@@ -9,3 +11,4 @@ public:
 	//constructor
 	InputValidator() {};
 };
+#endif // !INPUTVALIDATOR
